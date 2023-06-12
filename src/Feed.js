@@ -29,7 +29,6 @@ function Feed() {
 
     const setPost = (e) => {
         e.preventDefault();
-
         db.collection('posts').add({
             name:'aayush',
             description:'this is a test',
